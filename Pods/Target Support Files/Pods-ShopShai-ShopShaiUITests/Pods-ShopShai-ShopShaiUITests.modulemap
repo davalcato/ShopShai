@@ -1,0 +1,6 @@
+framework module Pods_ShopShai_ShopShaiUITests {
+  umbrella header "Pods-ShopShai-ShopShaiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
