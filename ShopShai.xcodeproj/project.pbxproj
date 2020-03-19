@@ -21,6 +21,8 @@
 		756844F924242CB1004904AB /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844F824242CB1004904AB /* SessionStore.swift */; };
 		756844FB24242CE3004904AB /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844FA24242CE3004904AB /* AuthView.swift */; };
 		756844FD24242F87004904AB /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844FC24242F87004904AB /* Drink.swift */; };
+		756844FF24242FD5004904AB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844FE24242FD5004904AB /* Data.swift */; };
+		7568450124243064004904AB /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568450024243064004904AB /* DrinkItem.swift */; };
 		E2073A4F36D1343445062306 /* Pods_ShopShai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		756844F824242CB1004904AB /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		756844FA24242CE3004904AB /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		756844FC24242F87004904AB /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		756844FE24242FD5004904AB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7568450024243064004904AB /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		94CE34529EE2B7FCF618F8CD /* Pods-ShopShaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.release.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9B26B5BA5EB383CC04A7F59 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE1D5AAF1E03BEDFE96CA3A2 /* Pods-ShopShai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				756844F524242A09004904AB /* GoogleService-Info.plist */,
 				756844CD242427C9004904AB /* Preview Content */,
 				756844FC24242F87004904AB /* Drink.swift */,
+				756844FE24242FD5004904AB /* Data.swift */,
+				7568450024243064004904AB /* DrinkItem.swift */,
 			);
 			path = ShopShai;
 			sourceTree = "<group>";
@@ -167,8 +173,8 @@
 		756844F724242C9B004904AB /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
-				756844F824242CB1004904AB /* SessionStore.swift */,
 				756844FA24242CE3004904AB /* AuthView.swift */,
+				756844F824242CB1004904AB /* SessionStore.swift */,
 			);
 			path = LogIn;
 			sourceTree = "<group>";
@@ -436,6 +442,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756844FF24242FD5004904AB /* Data.swift in Sources */,
+				7568450124243064004904AB /* DrinkItem.swift in Sources */,
 				756844C6242427C5004904AB /* AppDelegate.swift in Sources */,
 				756844FB24242CE3004904AB /* AuthView.swift in Sources */,
 				756844C8242427C5004904AB /* SceneDelegate.swift in Sources */,
