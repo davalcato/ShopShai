@@ -14,12 +14,16 @@ struct DrinkRow: View {
     var drinks:[Drink]
     
     var body: some View {
-        // SwiftUI ForEach 'identified(by:)' is deprecated. Use ForEach(drinks, id: \.self) or List(_:id:)
-        ForEach (drinks, id: \.self) { drink in
-            DrinkItem(drink: drink)
-            .frame(width: 300)
-            .padding(.trailing, 30)
-            
+        ScrollView {
+           // Embedded in HStack to create the horizontal scrollview 
+            HStack {
+                 // SwiftUI ForEach 'identified(by:)' is deprecated. Use ForEach(drinks, id: \.self) or List(_:id:)
+                ForEach (drinks, id: \.self) { drink in
+                    DrinkItem(drink: drink)
+                    .frame(width: 300)
+                    .padding(.trailing, 30)
+                }
+            }
         }
     }
 }
