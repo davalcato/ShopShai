@@ -14,16 +14,16 @@ struct DrinkItem: View {
     var drink:Drink
     
     var body: some View {
-        Image(drink.imageName)
-        .resizable()
-            // Render mode to see the image thru out the heirarchy
-            .renderingMode(.original)
-        .aspectRatio(contentMode: .fill)
-        .frame(width: 300, height: 370)
-        .cornerRadius(10)
-        .shadow(radius: 10)
-        
-        
+        VStack(alignment: .leading, spacing: 16) {
+            Image(drink.imageName)
+            .resizable()
+                // Render mode to see the image thru out the heirarchy
+                .renderingMode(.original)
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 300, height: 370)
+            .cornerRadius(10)
+                .shadow(radius: 10)
+        }
     }
 }
 
