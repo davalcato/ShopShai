@@ -8,14 +8,18 @@
 
 import SwiftUI
 
+
 struct DrinkItem: View {
+    
+    var drink:Drink
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(drink.imageName)
     }
 }
 
 struct DrinkItem_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkItem()
+        DrinkItem(drink: drinkData[0])
     }
 }
