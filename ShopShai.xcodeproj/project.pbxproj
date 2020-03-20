@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		22282D41ECB60A02B8B17F1C /* Pods_ShopShaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D3357740C556606E34BF7F /* Pods_ShopShaiTests.framework */; };
 		66142DD9ADCC21F9DAA51AF4 /* Pods_ShopShai_ShopShaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1705E836F758938BC987A4E9 /* Pods_ShopShai_ShopShaiUITests.framework */; };
+		754FF31424246A72005DAE89 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FF31324246A72005DAE89 /* DrinkRow.swift */; };
 		756844C6242427C5004904AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844C5242427C5004904AB /* AppDelegate.swift */; };
 		756844C8242427C5004904AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844C7242427C5004904AB /* SceneDelegate.swift */; };
 		756844CA242427C5004904AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844C9242427C5004904AB /* ContentView.swift */; };
@@ -49,6 +50,7 @@
 		1705E836F758938BC987A4E9 /* Pods_ShopShai_ShopShaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai_ShopShaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59D24B0EFD90C04486ACF525 /* Pods-ShopShai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.release.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.release.xcconfig"; sourceTree = "<group>"; };
+		754FF31324246A72005DAE89 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 		756844C2242427C5004904AB /* ShopShai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopShai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756844C5242427C5004904AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756844C7242427C5004904AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				756844C5242427C5004904AB /* AppDelegate.swift */,
 				756844C7242427C5004904AB /* SceneDelegate.swift */,
 				756844C9242427C5004904AB /* ContentView.swift */,
+				754FF31324246A72005DAE89 /* DrinkRow.swift */,
 				756844CB242427C9004904AB /* Assets.xcassets */,
 				756844D0242427C9004904AB /* LaunchScreen.storyboard */,
 				756844D3242427C9004904AB /* Info.plist */,
@@ -453,6 +456,7 @@
 				756844C8242427C5004904AB /* SceneDelegate.swift in Sources */,
 				756844F924242CB1004904AB /* SessionStore.swift in Sources */,
 				756844FD24242F87004904AB /* Drink.swift in Sources */,
+				754FF31424246A72005DAE89 /* DrinkRow.swift in Sources */,
 				756844CA242427C5004904AB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
