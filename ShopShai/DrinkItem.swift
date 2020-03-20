@@ -17,6 +17,8 @@ struct DrinkItem: View {
         Image(drink.imageName)
         .resizable()
         .aspectRatio(contentMode: .fill)
+        .frame(width: 300, height: 170)
+        
     }
 }
 
