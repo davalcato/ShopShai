@@ -16,8 +16,13 @@ struct DrinkItem: View {
     var body: some View {
         Image(drink.imageName)
         .resizable()
+            // Render mode to see the image thru out the heirarchy
+            .renderingMode(.original)
         .aspectRatio(contentMode: .fill)
-        .frame(width: 300, height: 170)
+        .frame(width: 300, height: 370)
+        .cornerRadius(10)
+        .shadow(radius: 10)
+        
         
     }
 }
