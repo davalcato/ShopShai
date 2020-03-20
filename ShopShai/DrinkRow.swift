@@ -14,14 +14,13 @@ struct DrinkRow: View {
     var drinks:[Drink]
     
     var body: some View {
-        
-        
-        
-        DrinkItem(drink: drinks.first!)
-        .frame(width: 300)
-        .padding(.trailing, 30)
-        
-        
+        // SwiftUI ForEach 'identified(by:)' is deprecated. Use ForEach(drinks, id: \.self) or List(_:id:)
+        ForEach (drinks, id: \.self) { drink in
+            DrinkItem(drink: drink)
+            .frame(width: 300)
+            .padding(.trailing, 30)
+            
+        }
     }
 }
 
