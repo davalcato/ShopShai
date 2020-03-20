@@ -11,15 +11,22 @@ import SwiftUI
 struct DrinkRow: View {
     
     var categoryName:String
-    var drink:[Drink]
+    var drinks:[Drink]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        
+        DrinkItem(drink: drinks.first!)
+        .frame(width: 300)
+        .padding(.trailing, 30)
+        
+        
     }
 }
 
 struct DrinkRow_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkRow(categoryName: "SPRING WEAR", drink: drinkData)
+        DrinkRow(categoryName: "SPRING WEAR", drinks: drinkData)
     }
 }
