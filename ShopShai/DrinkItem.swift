@@ -24,7 +24,7 @@ struct DrinkItem: View {
                 .cornerRadius(10)
                 .shadow(radius: 10)
             // Taking both of these text and putting them in there own stack here
-            VStack() {
+            VStack(alignment: .leading, spacing: 5.0) {
             // This name of the photo is here
             Text(drink.name)
                 .foregroundColor(.primary)
@@ -36,6 +36,8 @@ struct DrinkItem: View {
                 .multilineTextAlignment(.leading)
                 .lineLimit(2)
                 .frame(height: 40)
+           
+            
             }
         }
     }
