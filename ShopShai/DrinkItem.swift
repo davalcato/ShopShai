@@ -16,13 +16,19 @@ struct DrinkItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             Image(drink.imageName)
-            .resizable()
+                .resizable()
                 // Render mode to see the image thru out the heirarchy
                 .renderingMode(.original)
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 300, height: 370)
-            .cornerRadius(10)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 300, height: 370)
+                .cornerRadius(10)
                 .shadow(radius: 10)
+            // This name of the photo is here
+            Text(drink.name)
+                .foregroundColor(.primary)
+                .font(.headline)
+           
+            
         }
     }
 }
