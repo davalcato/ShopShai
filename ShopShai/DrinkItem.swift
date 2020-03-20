@@ -15,6 +15,8 @@ struct DrinkItem: View {
     
     var body: some View {
         Image(drink.imageName)
+        .resizable()
+        .aspectRatio(contentMode: .fill)
     }
 }
 
