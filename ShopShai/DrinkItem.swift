@@ -23,12 +23,20 @@ struct DrinkItem: View {
                 .frame(width: 300, height: 370)
                 .cornerRadius(10)
                 .shadow(radius: 10)
+            // Taking both of these text and putting them in there own stack here
+            VStack() {
             // This name of the photo is here
             Text(drink.name)
                 .foregroundColor(.primary)
                 .font(.headline)
-           
-            
+            // This is basic information about the photo
+            Text(drink.description)
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.leading)
+                .lineLimit(2)
+                .frame(height: 40)
+            }
         }
     }
 }
