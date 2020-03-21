@@ -25,6 +25,7 @@
 		756844FF24242FD5004904AB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844FE24242FD5004904AB /* Data.swift */; };
 		7568450124243064004904AB /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568450024243064004904AB /* DrinkItem.swift */; };
 		7568450324245820004904AB /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7568450224245820004904AB /* drinks.json */; };
+		75A5A45A2425A4330012E8B6 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5A4592425A4330012E8B6 /* DrinkDetail.swift */; };
 		E2073A4F36D1343445062306 /* Pods_ShopShai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		756844FE24242FD5004904AB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7568450024243064004904AB /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		7568450224245820004904AB /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		75A5A4592425A4330012E8B6 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		94CE34529EE2B7FCF618F8CD /* Pods-ShopShaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.release.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9B26B5BA5EB383CC04A7F59 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE1D5AAF1E03BEDFE96CA3A2 /* Pods-ShopShai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				756844C5242427C5004904AB /* AppDelegate.swift */,
 				756844C7242427C5004904AB /* SceneDelegate.swift */,
 				756844C9242427C5004904AB /* Home.swift */,
+				75A5A4592425A4330012E8B6 /* DrinkDetail.swift */,
 				754FF31324246A72005DAE89 /* DrinkRow.swift */,
 				756844CB242427C9004904AB /* Assets.xcassets */,
 				756844D0242427C9004904AB /* LaunchScreen.storyboard */,
@@ -456,6 +459,7 @@
 				756844C8242427C5004904AB /* SceneDelegate.swift in Sources */,
 				756844F924242CB1004904AB /* SessionStore.swift in Sources */,
 				756844FD24242F87004904AB /* Drink.swift in Sources */,
+				75A5A45A2425A4330012E8B6 /* DrinkDetail.swift in Sources */,
 				754FF31424246A72005DAE89 /* DrinkRow.swift in Sources */,
 				756844CA242427C5004904AB /* Home.swift in Sources */,
 			);
