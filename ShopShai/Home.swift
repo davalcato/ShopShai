@@ -21,8 +21,10 @@ struct HomeView: View {
         NavigationView{
             List (categories.keys.sorted(), id: \.self) { key in
                 DrinkRow(categoryName: "\(key) Style".uppercased(), drinks: self.categories[key]!)
-                
+                    .padding(Edge.Set(rawValue: 3), 1)
+                    .padding(.bottom)
             }
+        .navigationBarTitle(Text("SHOP SHAI"))
         }
     }
 }
