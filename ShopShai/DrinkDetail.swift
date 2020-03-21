@@ -24,10 +24,14 @@ struct DrinkDetail: View {
             HStack{
                 VStack(alignment: .leading, spacing: 8){
                     Text(drink.name)
-                    .foregroundColor(.white)
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
                     
                 }
-                
+                // The spacer causes the title of the photo to moe to the left
+                .padding(.leading)
+                .padding(.bottom)
+                Spacer()
             }
         }
     }
