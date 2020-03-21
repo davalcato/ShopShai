@@ -15,6 +15,9 @@ struct DrinkRow: View {
     
     var body: some View {
         VStack(alignment: .leading) {
+            Text(self.categoryName)
+            .font(.title)
+            
             
             // This has been deprecedate - showsHorizontalIndicator: false
             ScrollView(.horizontal, showsIndicators: false) {
