@@ -17,8 +17,8 @@ struct Drink: Hashable, Codable, Identifiable {
     
     // Simple data model used to populate the UI
     enum Category: String, CaseIterable, Codable, Hashable {
-        case hot = "hot"
-        case cold = "cold"
+        case hot = "Midnight"
+        case cold = "summer"
         
         
     }
