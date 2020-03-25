@@ -18,7 +18,6 @@ struct DrinkRow: View {
             Text(self.categoryName)
             .font(.title)
             
-            
             // This has been deprecedate - showsHorizontalIndicator: false
             ScrollView(.horizontal, showsIndicators: false) {
                // Embedded in HStack to create the horizontal scrollview
@@ -31,6 +30,7 @@ struct DrinkRow: View {
                     }
                 }
             }
+            Spacer()
         }
     }
 }
