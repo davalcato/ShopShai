@@ -35,7 +35,13 @@ struct DrinkDetail: View {
                     Spacer()
                 }
             }
-            Text(drink.description)
+            // This causes the photo to reach the end of both sides
+                .listRowInsets(EdgeInsets())
+                Text(drink.description)
+                .foregroundColor(.primary)
+                .font(.body)
+                .lineLimit(nil)
+                .lineSpacing(9)
         }
     }
 }
