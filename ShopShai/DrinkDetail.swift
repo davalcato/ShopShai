@@ -37,14 +37,34 @@ struct DrinkDetail: View {
             }
             // This causes the photo to reach the end of both sides
                 .listRowInsets(EdgeInsets())
+            // VStack is added to create the bottom
+            
+            VStack {
                 Text(drink.description)
-                .foregroundColor(.primary)
-                .font(.body)
-                .lineLimit(nil)
-                .lineSpacing(9)
+                    .foregroundColor(.primary)
+                    .font(.body)
+                    .lineLimit(nil)
+                    .lineSpacing(9)
+                
+                OrderButton()
+            }
         }
     }
 }
+
+struct OrderButton: View {
+    var body: some View {
+        Button(action: {}) {
+        Text("Order Item")
+            
+            
+        }
+        
+    }
+    
+}
+
+
 
 struct DrinkDetail_Previews: PreviewProvider {
     static var previews: some View {
