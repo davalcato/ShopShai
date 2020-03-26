@@ -11,7 +11,7 @@ import Firebase
 import FirebaseDatabase
 import FirebaseAuth
 import Combine
-
+  
 
 class SessionStore: ObservableObject {
     var didChange = PassthroughSubject<SessionStore, Never>()

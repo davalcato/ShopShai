@@ -14,6 +14,7 @@ struct SignInView: View {
     @State var error: String = ""
     @EnvironmentObject var session: SessionStore
     
+    
     func signIn() {
         session.signIn(email: email, password: password) { (result, error) in
             if let error = error {
