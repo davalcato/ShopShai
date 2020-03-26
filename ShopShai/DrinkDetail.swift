@@ -13,26 +13,29 @@ struct DrinkDetail: View {
     var drink:Drink
     
     var body: some View {
-        ZStack (alignment: .bottom) {
-            Image(drink.imageName)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            Rectangle()
-                .frame(height: 80)
-                .opacity(0.25)
-                .blur(radius: 10)
-            HStack{
-                VStack(alignment: .leading, spacing: 8){
-                    Text(drink.name)
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                    
+        List{
+            ZStack (alignment: .bottom) {
+                Image(drink.imageName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                Rectangle()
+                    .frame(height: 80)
+                    .opacity(0.25)
+                    .blur(radius: 10)
+                HStack{
+                    VStack(alignment: .leading, spacing: 8){
+                        Text(drink.name)
+                            .foregroundColor(.white)
+                            .font(.largeTitle)
+                        
+                    }
+                    // The spacer causes the title of the photo to moe to the left
+                    .padding(.leading)
+                    .padding(.bottom)
+                    Spacer()
                 }
-                // The spacer causes the title of the photo to moe to the left
-                .padding(.leading)
-                .padding(.bottom)
-                Spacer()
             }
+            Text(drink.description)
         }
     }
 }
