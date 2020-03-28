@@ -55,6 +55,9 @@ struct DrinkDetail: View {
                 }.padding(.top, 40)
             }
         }
+         // This fixed the OrderButton from falling to the bottom of the screen
+        .edgesIgnoringSafeArea(.top)
+        .navigationBarHidden(true)
     }
 }
 
