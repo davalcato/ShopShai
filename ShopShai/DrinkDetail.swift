@@ -51,7 +51,8 @@ struct DrinkDetail: View {
                     Spacer()
                     OrderButton()
                     Spacer()
-                }
+                 // This padding adds space between the OrderButton and the paragraph
+                }.padding(.top, 40)
             }
         }
     }

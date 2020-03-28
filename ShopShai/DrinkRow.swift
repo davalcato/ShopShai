@@ -24,9 +24,12 @@ struct DrinkRow: View {
                 HStack(alignment: .top) {
                      // SwiftUI ForEach 'identified(by:)' is deprecated. Use ForEach(drinks, id: \.self) or List(_:id:)
                     ForEach (drinks, id: \.self) { drink in
+                        NavigationLink(destination: DrinkDetail(drink: drink))
+                        {
                         DrinkItem(drink: drink)
                         .frame(width: 300)
                         .padding(.trailing, 30)
+                        }
                     }
                 }
             }
