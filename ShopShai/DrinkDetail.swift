@@ -47,6 +47,7 @@ struct DrinkDetail: View {
                     .lineSpacing(5)
                 
                 HStack {
+                    // These two spacer() put the "Order Item in the center"
                     Spacer()
                     OrderButton()
                     Spacer()
@@ -60,12 +61,8 @@ struct OrderButton: View {
     var body: some View {
         Button(action: {}) {
         Text("Order Item")
-            
-            
-        }
-        
+        }.frame(width: 200, height: 50)
     }
-    
 }
 
 
