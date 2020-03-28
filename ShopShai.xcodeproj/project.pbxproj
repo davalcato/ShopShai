@@ -132,7 +132,6 @@
 		756844B9242427C5004904AB = {
 			isa = PBXGroup;
 			children = (
-				756844F724242C9B004904AB /* LogIn */,
 				756844C4242427C5004904AB /* ShopShai */,
 				756844DB242427C9004904AB /* ShopShaiTests */,
 				756844E6242427C9004904AB /* ShopShaiUITests */,
@@ -157,14 +156,15 @@
 			children = (
 				756844C5242427C5004904AB /* AppDelegate.swift */,
 				756844C7242427C5004904AB /* SceneDelegate.swift */,
+				756844F724242C9B004904AB /* LogIn */,
 				752E9E88242FD67F004A0924 /* Views */,
+				752E9E89242FD726004A0924 /* Models */,
 				756844CB242427C9004904AB /* Assets.xcassets */,
 				756844D0242427C9004904AB /* LaunchScreen.storyboard */,
 				756844D3242427C9004904AB /* Info.plist */,
 				7568450224245820004904AB /* drinks.json */,
 				756844F524242A09004904AB /* GoogleService-Info.plist */,
 				756844CD242427C9004904AB /* Preview Content */,
-				752E9E89242FD726004A0924 /* Models */,
 			);
 			path = ShopShai;
 			sourceTree = "<group>";

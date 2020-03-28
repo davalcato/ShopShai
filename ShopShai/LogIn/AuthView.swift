@@ -24,7 +24,6 @@ struct SignInView: View {
                 self.password = ""
             }
         }
-        
     }
     
     var body: some View {
