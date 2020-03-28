@@ -39,14 +39,18 @@ struct DrinkDetail: View {
                 .listRowInsets(EdgeInsets())
             // VStack is added to create the bottom
             
-            VStack {
+            VStack(alignment: .leading) {
                 Text(drink.description)
                     .foregroundColor(.primary)
                     .font(.body)
                     .lineLimit(nil)
-                    .lineSpacing(9)
+                    .lineSpacing(5)
                 
-                OrderButton()
+                HStack {
+                    Spacer()
+                    OrderButton()
+                    Spacer()
+                }
             }
         }
     }
