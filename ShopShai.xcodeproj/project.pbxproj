@@ -109,6 +109,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		752E9E88242FD67F004A0924 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				756844C9242427C5004904AB /* Home.swift */,
+				75A5A4592425A4330012E8B6 /* DrinkDetail.swift */,
+				754FF31324246A72005DAE89 /* DrinkRow.swift */,
+				7568450024243064004904AB /* DrinkItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		756844B9242427C5004904AB = {
 			isa = PBXGroup;
 			children = (
@@ -137,9 +148,7 @@
 			children = (
 				756844C5242427C5004904AB /* AppDelegate.swift */,
 				756844C7242427C5004904AB /* SceneDelegate.swift */,
-				756844C9242427C5004904AB /* Home.swift */,
-				75A5A4592425A4330012E8B6 /* DrinkDetail.swift */,
-				754FF31324246A72005DAE89 /* DrinkRow.swift */,
+				752E9E88242FD67F004A0924 /* Views */,
 				756844CB242427C9004904AB /* Assets.xcassets */,
 				756844D0242427C9004904AB /* LaunchScreen.storyboard */,
 				756844D3242427C9004904AB /* Info.plist */,
@@ -147,7 +156,6 @@
 				756844F524242A09004904AB /* GoogleService-Info.plist */,
 				756844CD242427C9004904AB /* Preview Content */,
 				756844FC24242F87004904AB /* Drink.swift */,
-				7568450024243064004904AB /* DrinkItem.swift */,
 				756844FE24242FD5004904AB /* Data.swift */,
 			);
 			path = ShopShai;
