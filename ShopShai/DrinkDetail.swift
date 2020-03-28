@@ -62,6 +62,10 @@ struct OrderButton: View {
         Button(action: {}) {
         Text("Order Item")
         }.frame(width: 200, height: 50)
+            .foregroundColor(.white)
+            .font(.headline)
+            .background(Color.blue)
+            .cornerRadius(10)
     }
 }
 
