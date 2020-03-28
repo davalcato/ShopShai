@@ -120,6 +120,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		752E9E89242FD726004A0924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				756844FC24242F87004904AB /* Drink.swift */,
+				756844FE24242FD5004904AB /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		756844B9242427C5004904AB = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +164,7 @@
 				7568450224245820004904AB /* drinks.json */,
 				756844F524242A09004904AB /* GoogleService-Info.plist */,
 				756844CD242427C9004904AB /* Preview Content */,
-				756844FC24242F87004904AB /* Drink.swift */,
-				756844FE24242FD5004904AB /* Data.swift */,
+				752E9E89242FD726004A0924 /* Models */,
 			);
 			path = ShopShai;
 			sourceTree = "<group>";
