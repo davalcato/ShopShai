@@ -23,13 +23,14 @@ struct DrinkDetail: View {
                     .opacity(0.25)
                     .blur(radius: 10)
                 HStack{
+                    // Text is in a Vertical stack
                     VStack(alignment: .leading, spacing: 8){
                         Text(drink.name)
                             .foregroundColor(.white)
                             .font(.largeTitle)
                         
                     }
-                    // The spacer causes the title of the photo to moe to the left
+                    // The spacer causes the title of the photo to move to the left
                     .padding(.leading)
                     .padding(.bottom)
                     Spacer()

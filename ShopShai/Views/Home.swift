@@ -21,6 +21,7 @@ struct HomeView: View {
         // This is where all the action happens
         NavigationView{
             List (categories.keys.sorted(), id: \.self) { key in
+                // For each key with create a DrinkRow
                 DrinkRow(categoryName: "\(key) Style".uppercased(), drinks: self.categories[key]!)
                     .padding(Edge.Set(rawValue: 3), 1)
                     .padding(.top)
