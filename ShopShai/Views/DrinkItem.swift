@@ -21,8 +21,8 @@ struct DrinkItem: View {
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 300, height: 370)
-                .cornerRadius(10)
-                .shadow(radius: 10)
+                .cornerRadius(20)
+                .shadow(radius: 20)
             // Taking both of these text and putting them in there own stack here
             VStack(alignment: .leading, spacing: 5.0) {
             // This name of the photo is here
