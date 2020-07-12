@@ -23,9 +23,10 @@ struct HomeView: View {
             List (categories.keys.sorted(), id: \.self) { key in
                 DrinkRow(categoryName: "\(key) Style".uppercased(), drinks: self.categories[key]!)
                     .padding(Edge.Set(rawValue: 3), 1)
+                    .padding(.top)
                     .padding(.bottom)
             }
-        .navigationBarTitle(Text("SHOP SHAI"))
+        .navigationBarTitle(Text("Joie N Life"))
         }
     }
 }
@@ -33,5 +34,7 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .preferredColorScheme(.light)
+      
     }
 }

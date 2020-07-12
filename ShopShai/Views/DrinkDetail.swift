@@ -52,7 +52,7 @@ struct DrinkDetail: View {
                     OrderButton()
                     Spacer()
                  // This padding adds space between the OrderButton and the paragraph
-                }.padding(.top, 40)
+                }.padding(.top, 60)
             }
         }
          // This fixed the OrderButton from falling to the bottom of the screen
@@ -77,6 +77,12 @@ struct OrderButton: View {
 
 struct DrinkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkDetail(drink: drinkData[3])
+        Group {
+            DrinkDetail(drink: drinkData[3])
+                .previewDevice(/*@START_MENU_TOKEN@*/"iPhone 8"/*@END_MENU_TOKEN@*/)
+    
+            DrinkDetail(drink: drinkData[3])
+                .previewDevice("iPhone 11")
+        }
     }
 }

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22282D41ECB60A02B8B17F1C /* Pods_ShopShaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D3357740C556606E34BF7F /* Pods_ShopShaiTests.framework */; };
-		66142DD9ADCC21F9DAA51AF4 /* Pods_ShopShai_ShopShaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1705E836F758938BC987A4E9 /* Pods_ShopShai_ShopShaiUITests.framework */; };
+		204DF31AF7A7E3EC9AC55BFF /* Pods_ShopShai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEB4C73EB9A234BA8C03588 /* Pods_ShopShai.framework */; };
 		754FF31424246A72005DAE89 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754FF31324246A72005DAE89 /* DrinkRow.swift */; };
 		756844C6242427C5004904AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844C5242427C5004904AB /* AppDelegate.swift */; };
 		756844C8242427C5004904AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756844C7242427C5004904AB /* SceneDelegate.swift */; };
@@ -26,7 +25,8 @@
 		7568450124243064004904AB /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7568450024243064004904AB /* DrinkItem.swift */; };
 		7568450324245820004904AB /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 7568450224245820004904AB /* drinks.json */; };
 		75A5A45A2425A4330012E8B6 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5A4592425A4330012E8B6 /* DrinkDetail.swift */; };
-		E2073A4F36D1343445062306 /* Pods_ShopShai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */; };
+		86F949B1DF819B875ED4FDF2 /* Pods_ShopShai_ShopShaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4998D9E9E3138A2FDC5F5F /* Pods_ShopShai_ShopShaiUITests.framework */; };
+		8BB871038C61F77764B83846 /* Pods_ShopShaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569A3CEAE414C2BD3C3D692B /* Pods_ShopShaiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E97DF56E5C1D9DF55ED8612 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.release.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1705E836F758938BC987A4E9 /* Pods_ShopShai_ShopShaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai_ShopShaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59D24B0EFD90C04486ACF525 /* Pods-ShopShai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.release.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.release.xcconfig"; sourceTree = "<group>"; };
+		151B15A1CF2DFFCF422145E3 /* Pods-ShopShaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E73D3E74CA5E8CBD1D62D33 /* Pods-ShopShai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.release.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.release.xcconfig"; sourceTree = "<group>"; };
+		569A3CEAE414C2BD3C3D692B /* Pods_ShopShaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754FF31324246A72005DAE89 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 		756844C2242427C5004904AB /* ShopShai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopShai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756844C5242427C5004904AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,11 +73,12 @@
 		7568450024243064004904AB /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 		7568450224245820004904AB /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
 		75A5A4592425A4330012E8B6 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
-		94CE34529EE2B7FCF618F8CD /* Pods-ShopShaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.release.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.release.xcconfig"; sourceTree = "<group>"; };
-		B9B26B5BA5EB383CC04A7F59 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE1D5AAF1E03BEDFE96CA3A2 /* Pods-ShopShai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.debug.xcconfig"; sourceTree = "<group>"; };
-		E4219E30BDD418013EC91145 /* Pods-ShopShaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6D3357740C556606E34BF7F /* Pods_ShopShaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DEB4C73EB9A234BA8C03588 /* Pods_ShopShai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEAA81C415A4A523AA34377 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.release.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D4998D9E9E3138A2FDC5F5F /* Pods_ShopShai_ShopShaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopShai_ShopShaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73D0D422EDC4F33A3062D67 /* Pods-ShopShai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai/Pods-ShopShai.debug.xcconfig"; sourceTree = "<group>"; };
+		DF75C9FF9922C7957E8093C2 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC6370AD173A363009D6C50 /* Pods-ShopShaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopShaiTests.release.xcconfig"; path = "Target Support Files/Pods-ShopShaiTests/Pods-ShopShaiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2073A4F36D1343445062306 /* Pods_ShopShai.framework in Frameworks */,
+				204DF31AF7A7E3EC9AC55BFF /* Pods_ShopShai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22282D41ECB60A02B8B17F1C /* Pods_ShopShaiTests.framework in Frameworks */,
+				8BB871038C61F77764B83846 /* Pods_ShopShaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66142DD9ADCC21F9DAA51AF4 /* Pods_ShopShai_ShopShaiUITests.framework in Frameworks */,
+				86F949B1DF819B875ED4FDF2 /* Pods_ShopShai_ShopShaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +137,7 @@
 				756844E6242427C9004904AB /* ShopShaiUITests */,
 				756844C3242427C5004904AB /* Products */,
 				A5A4C583B8A6CB4BA05EF663 /* Pods */,
-				B1057F945F1D30E6B718DD7D /* Frameworks */,
+				EF28DF513EACE5C8BE729C85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,22 +207,22 @@
 		A5A4C583B8A6CB4BA05EF663 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE1D5AAF1E03BEDFE96CA3A2 /* Pods-ShopShai.debug.xcconfig */,
-				59D24B0EFD90C04486ACF525 /* Pods-ShopShai.release.xcconfig */,
-				B9B26B5BA5EB383CC04A7F59 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */,
-				0E97DF56E5C1D9DF55ED8612 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */,
-				E4219E30BDD418013EC91145 /* Pods-ShopShaiTests.debug.xcconfig */,
-				94CE34529EE2B7FCF618F8CD /* Pods-ShopShaiTests.release.xcconfig */,
+				C73D0D422EDC4F33A3062D67 /* Pods-ShopShai.debug.xcconfig */,
+				2E73D3E74CA5E8CBD1D62D33 /* Pods-ShopShai.release.xcconfig */,
+				DF75C9FF9922C7957E8093C2 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */,
+				8CEAA81C415A4A523AA34377 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */,
+				151B15A1CF2DFFCF422145E3 /* Pods-ShopShaiTests.debug.xcconfig */,
+				FDC6370AD173A363009D6C50 /* Pods-ShopShaiTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B1057F945F1D30E6B718DD7D /* Frameworks */ = {
+		EF28DF513EACE5C8BE729C85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1FB433757793B1C60685EF83 /* Pods_ShopShai.framework */,
-				1705E836F758938BC987A4E9 /* Pods_ShopShai_ShopShaiUITests.framework */,
-				E6D3357740C556606E34BF7F /* Pods_ShopShaiTests.framework */,
+				7DEB4C73EB9A234BA8C03588 /* Pods_ShopShai.framework */,
+				8D4998D9E9E3138A2FDC5F5F /* Pods_ShopShai_ShopShaiUITests.framework */,
+				569A3CEAE414C2BD3C3D692B /* Pods_ShopShaiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,11 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 756844EC242427C9004904AB /* Build configuration list for PBXNativeTarget "ShopShai" */;
 			buildPhases = (
-				A5752E5907DAF67155147DA5 /* [CP] Check Pods Manifest.lock */,
+				666EFFD02B28A2D078EEA425 /* [CP] Check Pods Manifest.lock */,
 				756844BE242427C5004904AB /* Sources */,
 				756844BF242427C5004904AB /* Frameworks */,
 				756844C0242427C5004904AB /* Resources */,
-				3032E64A5CA3CF66C1EC4895 /* [CP] Embed Pods Frameworks */,
+				0831B241883F5FDC7ADF912D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,7 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 756844EF242427C9004904AB /* Build configuration list for PBXNativeTarget "ShopShaiTests" */;
 			buildPhases = (
-				C6C1A64165B01CF34771ECDA /* [CP] Check Pods Manifest.lock */,
+				F8682DA039298D45E535FBE1 /* [CP] Check Pods Manifest.lock */,
 				756844D4242427C9004904AB /* Sources */,
 				756844D5242427C9004904AB /* Frameworks */,
 				756844D6242427C9004904AB /* Resources */,
@@ -272,11 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 756844F2242427C9004904AB /* Build configuration list for PBXNativeTarget "ShopShaiUITests" */;
 			buildPhases = (
-				76F22B98E692FCD44E303E3C /* [CP] Check Pods Manifest.lock */,
+				D1DE666A02007AA8BBF6AD09 /* [CP] Check Pods Manifest.lock */,
 				756844DF242427C9004904AB /* Sources */,
 				756844E0242427C9004904AB /* Frameworks */,
 				756844E1242427C9004904AB /* Resources */,
-				1ED832023A1C861E4A49E573 /* [CP] Embed Pods Frameworks */,
+				E5C0D3561D1EF125F96E1BE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,24 +361,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1ED832023A1C861E4A49E573 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3032E64A5CA3CF66C1EC4895 /* [CP] Embed Pods Frameworks */ = {
+		0831B241883F5FDC7ADF912D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,29 +378,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopShai/Pods-ShopShai-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76F22B98E692FCD44E303E3C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShopShai-ShopShaiUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5752E5907DAF67155147DA5 /* [CP] Check Pods Manifest.lock */ = {
+		666EFFD02B28A2D078EEA425 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,7 +400,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C6C1A64165B01CF34771ECDA /* [CP] Check Pods Manifest.lock */ = {
+		D1DE666A02007AA8BBF6AD09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopShai-ShopShaiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C0D3561D1EF125F96E1BE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopShai-ShopShaiUITests/Pods-ShopShai-ShopShaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8682DA039298D45E535FBE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -640,12 +640,12 @@
 		};
 		756844ED242427C9004904AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE1D5AAF1E03BEDFE96CA3A2 /* Pods-ShopShai.debug.xcconfig */;
+			baseConfigurationReference = C73D0D422EDC4F33A3062D67 /* Pods-ShopShai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShopShai/Preview Content\"";
-				DEVELOPMENT_TEAM = QFQW29JWKY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShopShai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -661,12 +661,12 @@
 		};
 		756844EE242427C9004904AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59D24B0EFD90C04486ACF525 /* Pods-ShopShai.release.xcconfig */;
+			baseConfigurationReference = 2E73D3E74CA5E8CBD1D62D33 /* Pods-ShopShai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShopShai/Preview Content\"";
-				DEVELOPMENT_TEAM = QFQW29JWKY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ShopShai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -682,7 +682,7 @@
 		};
 		756844F0242427C9004904AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4219E30BDD418013EC91145 /* Pods-ShopShaiTests.debug.xcconfig */;
+			baseConfigurationReference = 151B15A1CF2DFFCF422145E3 /* Pods-ShopShaiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,7 +705,7 @@
 		};
 		756844F1242427C9004904AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94CE34529EE2B7FCF618F8CD /* Pods-ShopShaiTests.release.xcconfig */;
+			baseConfigurationReference = FDC6370AD173A363009D6C50 /* Pods-ShopShaiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -728,7 +728,7 @@
 		};
 		756844F3242427C9004904AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9B26B5BA5EB383CC04A7F59 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */;
+			baseConfigurationReference = DF75C9FF9922C7957E8093C2 /* Pods-ShopShai-ShopShaiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -749,7 +749,7 @@
 		};
 		756844F4242427C9004904AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E97DF56E5C1D9DF55ED8612 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */;
+			baseConfigurationReference = 8CEAA81C415A4A523AA34377 /* Pods-ShopShai-ShopShaiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
